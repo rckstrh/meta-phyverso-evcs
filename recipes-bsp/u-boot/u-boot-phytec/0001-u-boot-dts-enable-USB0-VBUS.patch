@@ -3,6 +3,8 @@ From: Jonas Rockstroh <jonas.rockstroh@pionix.de>
 Date: Mon, 23 Feb 2026 14:48:50 +0000
 Subject: [PATCH] u-boot-dts: enable USB0 VBUS
 
+USB0_DRVVBUS pin is connected to TPS2553-1 load switch EN pin to enable power on X36 USB 2.0 Type-A connector
+
 Signed-off-by: Jonas Rockstroh <jonas.rockstroh@pionix.de>
 ---
  dts/upstream/src/arm64/ti/k3-am62x-phyboard-lyra.dtsi | 6 ++++++
